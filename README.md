@@ -1,2 +1,2 @@
-# Counter
+# counter
 Counts numbers on click
