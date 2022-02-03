@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: wheat;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+h1{
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 3rem;
+	user-select: none;
+    text-shadow: rgb(6, 51, 66) 1px 1px 2px;
+}
+
+span{
+	font-size: 4rem;
+	user-select: none;
+}
+
+.Container{
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: .5rem;
+	font-size: 1rem;
+	background: white;
+	border-left: none;
+	color: black;
+	cursor: pointer;
+    border-radius: 10px;
+    box-shadow: black 10px 10px 20px ;
+}
+
+.btn:hover{
+    background: black;
+    color: white;
+    box-shadow: black 10px 10px 9px ;
+}
