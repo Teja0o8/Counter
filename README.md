@@ -1,2 +1,2 @@
 # counter
-Counts numbers on click
+counts numbers on click
